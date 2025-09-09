@@ -24,7 +24,7 @@ cookies.txt
 
 # Картинки, медиафайлы
 static/media/
-docs/images/
+
 
 # Настройки редакторов
 .vscode/

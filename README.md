@@ -73,10 +73,9 @@ pytest --base-url=https://www.saucedemo.com
 # 9. Генерация Allure отчёта
 allure serve allure-results
 
-## Скриншоты
-
-![Chrome](docs/images/chrome.png)
-![Firefox](docs/images/firefox.png)
+# Скриншоты
+![Chrome](./docs/images/chrome.png)
+![Firefox](./docs/images/firefox.png)
 
 # 10. Проверка типизации
 mypy .
