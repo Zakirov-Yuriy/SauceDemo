@@ -1,0 +1,6 @@
+pytest
+selenium
+webdriver-manager
+allure-pytest
+mypy
+ruff

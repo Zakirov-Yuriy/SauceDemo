@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+fix = true
+select = ["ALL"]
+ignore = [
+    "D100", "D101", "D102", "D103",
+    "COM812", "ISC001",
+]
+

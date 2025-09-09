@@ -1,0 +1,18 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","test_user_can_logout","tests","2025-09-08","broken","2025-09-08","","test_logout","",""
+"","0","test_login_negative_shows_error[standard_user-]","tests","2025-09-08","broken","2025-09-08","","test_auth","",""
+"
+    Проверка аутентификации и авторизации пользователя.
+    Шаги:
+      1) Открыть страницу логина
+      2) Ввести username = standard_user
+      3) Ввести password = secret_sauce
+      4) Нажать Login
+    Ожидаемый результат:
+      - Открывается страница /inventory.html
+      - Видна таблица/список с товарами (inventory_list)
+      - Количество товаров > 0 (доп. sanity)
+    ","0","test_success_login_opens_products_page","tests","2025-09-08","broken","2025-09-08","","test_auth","",""
+"","0","test_login_negative_shows_error[standard_user-wrong_password]","tests","2025-09-08","broken","2025-09-08","","test_auth","",""
+"","0","test_login_negative_shows_error[locked_out_user-secret_sauce]","tests","2025-09-08","broken","2025-09-08","","test_auth","",""
+"","0","test_login_negative_shows_error[-secret_sauce]","tests","2025-09-08","broken","2025-09-08","","test_auth","",""
